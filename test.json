@@ -1,0 +1,58 @@
+{
+  "string": "Hello, world!",
+  "integer": 42,
+  "float": 3.14159,
+  "bool_t": true,
+  "bool_f": false,
+  "null": null,
+
+  "num_array": [1, 2, 3, 4],
+  
+  "array_mixed": [
+    "text",
+    99,
+    true,
+    null,
+    { "nested_object_in_array": "value" },
+    [1, 2, 3]
+  ],
+
+  "object_nested": {
+    "level1": {
+      "level2": {
+        "level3": {
+          "message": "Deep nested value",
+          "numbers": [10, 20, 30],
+          "flags": {
+            "enabled": true,
+            "beta": false
+          }
+        }
+      }
+    }
+  },
+
+  "complex_items": [
+    {
+      "id": 1,
+      "name": "Item One",
+      "attributes": {
+        "color": "red",
+        "size": "large",
+        "in_stock": true
+      }
+    },
+    {
+      "id": 2,
+      "name": "Item Two",
+      "attributes": {
+        "color": "blue",
+        "size": "medium",
+        "in_stock": false
+      }
+    }
+  ],
+
+  "empty_array": [],
+  "empty_object": {}
+}
